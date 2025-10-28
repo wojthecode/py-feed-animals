@@ -20,8 +20,7 @@ class Animal:
         if self.is_hungry:
             print(f"Eating {self.appetite} food points...")
             self.is_hungry = False
-            food_points, self.appetite = self.appetite, 0
-            return food_points
+            return self.appetite
         return 0
 
 
